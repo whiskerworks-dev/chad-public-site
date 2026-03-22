@@ -82,6 +82,36 @@ description: Local-first cycling coaching with FIT file import, ride analysis, g
 	</div>
 </section>
 
+<section class="section-block" id="privacy">
+	<div class="section-heading">
+		<p class="eyebrow">Privacy-first</p>
+		<h2>Your ride data stays close to you.</h2>
+		<p>The product promise is simple: clear boundaries, local storage, and no ad-tech hiding behind “insights.” The full policy lives on its own page for a stable public URL.</p>
+	</div>
+
+	<div class="trust-grid">
+		<article class="trust-card">
+			<h3>No personal ride data on a server</h3>
+			<p>Ride data imported through FIT files is processed entirely on-device and stored in a local database on your phone.</p>
+		</article>
+
+		<article class="trust-card">
+			<h3>No ads and no analytics SDKs</h3>
+			<p>Chad does not use advertising, third-party tracking, or analytics SDKs to profile your training behavior.</p>
+		</article>
+
+		<article class="trust-card">
+			<h3>Purchases stay in the purchase flow</h3>
+			<p>In-app purchases are handled by Apple and RevenueCat. RevenueCat receives an anonymous receipt to validate the unlock, not your ride history.</p>
+		</article>
+
+		<article class="trust-card">
+			<h3>Private by default</h3>
+			<p><strong>Public policy summary:</strong> Chad does not collect, transmit, or store personal data on any server, and imported FIT ride data stays on your device.</p>
+		</article>
+	</div>
+</section>
+
 <section class="section-block split-section" id="workflow">
 	<div class="section-heading narrow">
 		<p class="eyebrow">How it works</p>
@@ -111,35 +141,5 @@ description: Local-first cycling coaching with FIT file import, ride analysis, g
 				<p>Use the dashboard, ride library, and goal screens to decide what to repeat, what to recover from, and what to build next.</p>
 			</div>
 		</div>
-	</div>
-</section>
-
-<section class="section-block" id="privacy">
-	<div class="section-heading">
-		<p class="eyebrow">Privacy-first</p>
-		<h2>Your ride data stays close to you.</h2>
-		<p>The product promise is simple: clear boundaries, local storage, and no ad-tech hiding behind “insights.” The full policy lives on its own page for a stable public URL.</p>
-	</div>
-
-	<div class="trust-grid">
-		<article class="trust-card">
-			<h3>No personal ride data on a server</h3>
-			<p>Ride data imported through FIT files is processed entirely on-device and stored in a local database on your phone.</p>
-		</article>
-
-		<article class="trust-card">
-			<h3>No ads and no analytics SDKs</h3>
-			<p>Chad does not use advertising, third-party tracking, or analytics SDKs to profile your training behavior.</p>
-		</article>
-
-		<article class="trust-card">
-			<h3>Purchases stay in the purchase flow</h3>
-			<p>In-app purchases are handled by Apple and RevenueCat. RevenueCat receives an anonymous receipt to validate the unlock, not your ride history.</p>
-		</article>
-	</div>
-
-	<div class="policy-card">
-		<p><strong>Public policy summary:</strong> Chad does not collect, transmit, or store personal data on any server, and imported FIT ride data stays on your device.</p>
-		<p><a class="button button-secondary" href="{{ '/privacy.html' | relative_url }}">Open the full privacy policy</a></p>
 	</div>
 </section>

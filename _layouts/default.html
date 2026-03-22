@@ -481,6 +481,16 @@
       color: var(--text);
     }
 
+    .policy-copy {
+      display: grid;
+      gap: 16px;
+      max-width: 52rem;
+    }
+
+    .policy-copy strong {
+      color: var(--text);
+    }
+
     .site-footer {
       display: flex;
       justify-content: space-between;
@@ -550,9 +560,10 @@
   </style>
 </head>
 <body>
+  {% assign is_privacy_page = page.url == '/privacy.html' or page.url == '/privacy/' or page.title == 'Privacy Policy' %}
   <div class="site-shell">
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Chad Cycling Coach home">
+      <a class="brand" href="{% if is_privacy_page %}{{ '/' | relative_url }}{% else %}#top{% endif %}" aria-label="Chad Cycling Coach home">
         <img class="brand-mark" src="{{ '/assets/images/chad-logo.png' | relative_url }}" alt="Chad Cycling Coach logo" />
         <span class="brand-text">
           <strong>Chad Cycling Coach</strong>
@@ -561,10 +572,10 @@
       </a>
 
       <nav class="site-nav" aria-label="Primary">
-        <a href="#features">Features</a>
-        <a href="#workflow">How it works</a>
-        <a href="#privacy">Privacy</a>
-        <a href="{{ '/privacy.html' | relative_url }}"{% if page.url == '/privacy.html' or page.url == '/privacy/' or page.title == 'Privacy Policy' %} aria-current="page"{% endif %}>Policy</a>
+        <a href="{% if is_privacy_page %}{{ '/' | relative_url }}#features{% else %}#features{% endif %}">Features</a>
+        <a href="{% if is_privacy_page %}{{ '/' | relative_url }}#workflow{% else %}#workflow{% endif %}">How it works</a>
+        <a href="{% if is_privacy_page %}{{ '/' | relative_url }}#privacy{% else %}#privacy{% endif %}">Privacy</a>
+        <a href="{{ '/privacy.html' | relative_url }}"{% if is_privacy_page %} aria-current="page"{% endif %}>Policy</a>
         <a href="mailto:{{ site.email }}">Contact</a>
       </nav>
     </header>
@@ -576,7 +587,7 @@
     <footer class="site-footer">
       <p>{{ site.title }} is a public-facing overview of the mobile app’s product and privacy model.</p>
       <div class="footer-links">
-        <a href="#privacy">Privacy-first design</a>
+        <a href="{% if is_privacy_page %}{{ '/' | relative_url }}#privacy{% else %}#privacy{% endif %}">Privacy-first design</a>
         <a href="{{ '/privacy.html' | relative_url }}">Privacy policy</a>
         <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </div>
