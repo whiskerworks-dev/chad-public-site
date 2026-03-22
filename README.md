@@ -1,9 +1,9 @@
 # Chad Public Site
 
-Simple GitHub Pages site for the Chad app privacy policy.
+Simple GitHub Pages site for the Chad app marketing page and public privacy policy.
 
 ## Status
-- `index.md`: Jekyll page content (privacy policy)
+- `index.md`: Jekyll page content for the one-page public site
 - `_layouts/default.html`: Jekyll layout
 - `_config.yml`: Jekyll config
 - `.github/workflows/pages.yml`: auto deploy on `main` push
@@ -14,6 +14,6 @@ Simple GitHub Pages site for the Chad app privacy policy.
 3. Visit https://<your-user>.github.io/<repo-name>/
 
 ## Customize
-- Edit `index.md` and add more markdown pages
-- Add navigation with additional layouts or includes as needed
+- Edit `index.md` to update the homepage sections, including the embedded privacy policy
+- Add navigation targets or additional layouts as needed
 

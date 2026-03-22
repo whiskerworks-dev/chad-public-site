@@ -12,7 +12,7 @@ description: Local-first cycling coaching with FIT file import, ride analysis, g
 
 		<div class="hero-actions">
 			<a class="button button-primary" href="#features">Explore the app</a>
-			<a class="button button-secondary" href="{{ '/privacy.html' | relative_url }}">Read the privacy policy</a>
+			<a class="button button-secondary" href="#privacy-policy">Read the privacy policy</a>
 		</div>
 
 		<ul class="hero-points">
@@ -86,7 +86,7 @@ description: Local-first cycling coaching with FIT file import, ride analysis, g
 	<div class="section-heading">
 		<p class="eyebrow">Privacy-first</p>
 		<h2>Your ride data stays close to you.</h2>
-		<p>The product promise is simple: clear boundaries, local storage, and no ad-tech hiding behind “insights.” The full policy lives on its own page for a stable public URL.</p>
+		<p>The product promise is simple: clear boundaries, local storage, and no ad-tech hiding behind "insights." The full public policy is part of this page so the privacy model is visible without a second click.</p>
 	</div>
 
 	<div class="trust-grid">
@@ -109,6 +109,24 @@ description: Local-first cycling coaching with FIT file import, ride analysis, g
 			<h3>Private by default</h3>
 			<p><strong>Public policy summary:</strong> Chad does not collect, transmit, or store personal data on any server, and imported FIT ride data stays on your device.</p>
 		</article>
+	</div>
+</section>
+
+<section class="section-block split-section" id="privacy-policy">
+	<div class="section-heading narrow">
+		<p class="eyebrow">Public policy</p>
+		<h2>Privacy policy in plain language.</h2>
+		<p>This is the public policy reference for Chad: Cycling Coach. It mirrors the product's local-first behavior and keeps the promises concrete.</p>
+	</div>
+
+	<div class="policy-card">
+		<div class="policy-copy">
+			<p>Chad does not collect, transmit, or store personal data on any server.</p>
+			<p>Ride data imported via FIT files is processed entirely on your device and stored in a local on-device database. No ride data leaves your device.</p>
+			<p>In-app purchases are processed by Apple and RevenueCat. RevenueCat receives an anonymous purchase receipt to validate your unlock. No personal information, account data, or ride data is shared with RevenueCat.</p>
+			<p>Chad does not use advertising, analytics SDKs, or third-party tracking.</p>
+			<p><strong>Contact:</strong> <a href="mailto:whiskerworks@nxtlab.dev">whiskerworks@nxtlab.dev</a></p>
+		</div>
 	</div>
 </section>
 
