@@ -29,6 +29,7 @@
       --radius-xl: 36px;
       --radius-lg: 28px;
       --radius-md: 22px;
+      --anchor-offset: 112px;
     }
 
     * {
@@ -184,6 +185,11 @@
       box-shadow: var(--shadow-soft);
       overflow: hidden;
       position: relative;
+    }
+
+    .hero-shell,
+    .section-block {
+      scroll-margin-top: var(--anchor-offset);
     }
 
     .hero-shell::after {
@@ -508,6 +514,10 @@
     }
 
     @media (max-width: 960px) {
+      :root {
+        --anchor-offset: 28px;
+      }
+
       .site-header,
       .hero-shell,
       .split-section,
@@ -571,10 +581,11 @@
       </a>
 
       <nav class="site-nav" aria-label="Primary">
+        <a href="#top">Home</a>
         <a href="#features">Features</a>
         <a href="#workflow">How it works</a>
         <a href="#privacy">Privacy</a>
-        <a href="#privacy-policy">Policy</a>
+        <a href="#privacy-policy">Privacy policy</a>
         <a href="mailto:{{ site.email }}">Contact</a>
       </nav>
     </header>
@@ -586,6 +597,7 @@
     <footer class="site-footer">
       <p>{{ site.title }} is a public-facing overview of the mobile app’s product and privacy model.</p>
       <div class="footer-links">
+        <a href="#top">Home</a>
         <a href="#privacy">Privacy-first design</a>
         <a href="#privacy-policy">Privacy policy</a>
         <a href="mailto:{{ site.email }}">{{ site.email }}</a>
