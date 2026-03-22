@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title | default: site.title }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 760px; margin: 2rem auto; line-height: 1.6; color: #111; background: #fdfdfd; padding: 0 1rem; }
+    h1 { border-bottom: 1px solid #ddd; padding-bottom: 0.25rem; }
+    p { margin: 1rem 0; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  {{ content }}
+</body>
+</html>
