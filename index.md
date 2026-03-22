@@ -112,24 +112,6 @@ description: Local-first cycling coaching with FIT file import, ride analysis, g
 	</div>
 </section>
 
-<section class="section-block split-section" id="privacy-policy">
-	<div class="section-heading narrow">
-		<p class="eyebrow">Public policy</p>
-		<h2>Privacy policy in plain language.</h2>
-		<p>This is the public policy reference for Chad: Cycling Coach. It mirrors the product's local-first behavior and keeps the promises concrete.</p>
-	</div>
-
-	<div class="policy-card">
-		<div class="policy-copy">
-			<p>Chad does not collect, transmit, or store personal data on any server.</p>
-			<p>Ride data imported via FIT files is processed entirely on your device and stored in a local on-device database. No ride data leaves your device.</p>
-			<p>In-app purchases are processed by Apple and RevenueCat. RevenueCat receives an anonymous purchase receipt to validate your unlock. No personal information, account data, or ride data is shared with RevenueCat.</p>
-			<p>Chad does not use advertising, analytics SDKs, or third-party tracking.</p>
-			<p><strong>Contact:</strong> <a href="mailto:whiskerworks@nxtlab.dev">whiskerworks@nxtlab.dev</a></p>
-		</div>
-	</div>
-</section>
-
 <section class="section-block split-section" id="workflow">
 	<div class="section-heading narrow">
 		<p class="eyebrow">How it works</p>
@@ -158,6 +140,24 @@ description: Local-first cycling coaching with FIT file import, ride analysis, g
 				<h3>Train with clearer feedback</h3>
 				<p>Use the dashboard, ride library, and goal screens to decide what to repeat, what to recover from, and what to build next.</p>
 			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-block split-section" id="privacy-policy">
+	<div class="section-heading narrow">
+		<p class="eyebrow">Public policy</p>
+		<h2>Privacy policy in plain language.</h2>
+		<p>This is the public policy reference for Chad: Cycling Coach. It mirrors the product's local-first behavior and keeps the promises concrete.</p>
+	</div>
+
+	<div class="policy-card">
+		<div class="policy-copy">
+			<p>Chad does not collect, transmit, or store personal data on any server.</p>
+			<p>Ride data imported via FIT files is processed entirely on your device and stored in a local on-device database. No ride data leaves your device.</p>
+			<p>In-app purchases are processed by Apple and RevenueCat. RevenueCat receives an anonymous purchase receipt to validate your unlock. No personal information, account data, or ride data is shared with RevenueCat.</p>
+			<p>Chad does not use advertising, analytics SDKs, or third-party tracking.</p>
+			<p><strong>Contact:</strong> <a href="mailto:whiskerworks@nxtlab.dev">whiskerworks@nxtlab.dev</a></p>
 		</div>
 	</div>
 </section>
