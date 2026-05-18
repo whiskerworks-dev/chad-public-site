@@ -566,6 +566,72 @@
         flex-direction: column;
         align-items: flex-start;
       }
+
+      .site-nav .nav-link {
+        display: none;
+      }
+
+      .site-header {
+        justify-content: space-between;
+      }
+    }
+
+    /* ──────────── App Store button ──────────── */
+    .app-store-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 9px 20px;
+      border-radius: 999px;
+      background: var(--text);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.88rem;
+      white-space: nowrap;
+      letter-spacing: -0.01em;
+      transition: transform 180ms ease, background-color 180ms ease;
+      flex-shrink: 0;
+    }
+
+    .app-store-btn:hover,
+    .app-store-btn:focus-visible {
+      background: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    /* ──────────── Screenshot strip ──────────── */
+    .screenshot-strip {
+      display: flex;
+      gap: 14px;
+      overflow-x: auto;
+      padding: 4px 2px 18px;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border-strong) transparent;
+    }
+
+    .screenshot-strip::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .screenshot-strip::-webkit-scrollbar-thumb {
+      background: var(--border-strong);
+      border-radius: 999px;
+    }
+
+    .screenshot-item {
+      flex: 0 0 auto;
+      width: 210px;
+      scroll-snap-align: start;
+    }
+
+    .screenshot-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid var(--border);
     }
   </style>
 </head>
@@ -581,12 +647,13 @@
       </a>
 
       <nav class="site-nav" aria-label="Primary">
-        <a href="#top">Home</a>
-        <a href="#features">Features</a>
-        <a href="#privacy">Privacy-first design</a>
-        <a href="#workflow">How it works</a>
-        <a href="#privacy-policy">Privacy policy</a>
-        <a href="mailto:{{ site.email }}">Contact</a>
+        <a class="nav-link" href="#top">Home</a>
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#privacy">Privacy-first design</a>
+        <a class="nav-link" href="#workflow">How it works</a>
+        <a class="nav-link" href="#privacy-policy">Privacy policy</a>
+        <a class="nav-link" href="mailto:{{ site.email }}">Contact</a>
+        <a class="app-store-btn" href="https://apps.apple.com/nl/app/chad-cycling-coach/id6760978882">Download on App Store</a>
       </nav>
     </header>
 
@@ -600,6 +667,7 @@
         <a href="#privacy">Privacy-first design</a>
         <a href="#privacy-policy">Privacy policy</a>
         <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <a href="https://apps.apple.com/nl/app/chad-cycling-coach/id6760978882">Download on the App Store</a>
       </div>
     </footer>
   </div>

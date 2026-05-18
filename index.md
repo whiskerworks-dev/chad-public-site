@@ -8,17 +8,17 @@ description: Local-first cycling coaching with FIT file import, heart-rate and p
 	<div class="hero-copy">
 		<p class="eyebrow">Chad: Cycling Coach</p>
 		<h1>Ride sharper with cleaner coaching.</h1>
-		<p class="lead">Import FIT files, analyze heart rate, power, and cadence on-device, and keep your ride history in a compact coaching workspace built around privacy instead of feeds.</p>
+		<p class="lead">Import FIT or ZIP files from Garmin, Wahoo, Karoo, and Files, analyze heart rate, power, and cadence on-device, and keep your ride history in a compact coaching workspace built around privacy instead of feeds.</p>
 
 		<div class="hero-actions">
-			<a class="button button-primary" href="#features">Explore the app</a>
-			<a class="button button-secondary" href="#privacy-policy">Read the privacy policy</a>
+			<a class="button button-primary" href="https://apps.apple.com/nl/app/chad-cycling-coach/id6760978882">Download on the App Store</a>
+			<a class="button button-secondary" href="#features">Explore the app</a>
 		</div>
 
 		<ul class="hero-points">
-			<li>Import FIT files from Garmin, Wahoo, Files, and similar exports</li>
-			<li>See heart-rate and power zones, load, and ride-by-ride feedback</li>
-			<li>Keep coaching data local by default</li>
+			<li>Import FIT and ZIP files from Garmin, Wahoo, Karoo, Files, and share sheets</li>
+			<li>See heart-rate and power zones, load, and ride-by-ride coaching feedback</li>
+			<li>All ride data and coaching stays on-device, by default</li>
 		</ul>
 	</div>
 
@@ -48,6 +48,35 @@ description: Local-first cycling coaching with FIT file import, heart-rate and p
 	</div>
 </section>
 
+<section class="section-block" id="screenshots">
+	<div class="section-heading">
+		<p class="eyebrow">In the app</p>
+		<h2>What it looks like in practice.</h2>
+		<p>Real screens from the app — coaching feedback, ride breakdowns, goal tracking, and your weekly training picture.</p>
+	</div>
+
+	<div class="screenshot-strip">
+		<div class="screenshot-item">
+			<img src="{{ '/assets/images/screenshots/01-chad-private-cycling-coach.png' | relative_url }}" alt="Chad dashboard showing next-step coaching and 8-week training analysis" loading="lazy" />
+		</div>
+		<div class="screenshot-item">
+			<img src="{{ '/assets/images/screenshots/02-ride-analysis.png' | relative_url }}" alt="Ride analysis showing Chad's coaching note and endurance classification" loading="lazy" />
+		</div>
+		<div class="screenshot-item">
+			<img src="{{ '/assets/images/screenshots/03-power-hr-effort.png' | relative_url }}" alt="Power and heart rate zone breakdown for a single ride" loading="lazy" />
+		</div>
+		<div class="screenshot-item">
+			<img src="{{ '/assets/images/screenshots/04-goal-readiness.png' | relative_url }}" alt="Goal readiness screen showing 83% ready with distance and elevation targets" loading="lazy" />
+		</div>
+		<div class="screenshot-item">
+			<img src="{{ '/assets/images/screenshots/05-weekly-summary.png' | relative_url }}" alt="Weekly summary showing 7-day training rhythm, zone distribution, and load score" loading="lazy" />
+		</div>
+		<div class="screenshot-item">
+			<img src="{{ '/assets/images/screenshots/06-chad-privacy.png' | relative_url }}" alt="Privacy screen confirming local-first data storage" loading="lazy" />
+		</div>
+	</div>
+</section>
+
 <section class="section-block" id="features">
 	<div class="section-heading">
 		<p class="eyebrow">Core surfaces</p>
@@ -58,26 +87,26 @@ description: Local-first cycling coaching with FIT file import, heart-rate and p
 	<div class="feature-grid">
 		<article class="feature-card">
 			<p class="feature-kicker">Dashboard</p>
-			<h3>Weekly snapshot without feed clutter</h3>
-			<p>Review weekly distance, ride count, training score, and a next-ride recommendation in the same focused layout used in the app.</p>
+			<h3>Weekly snapshot with coaching direction</h3>
+			<p>Review weekly distance, ride count, training score, and a next-ride recommendation. With enough ride history, an 8-week training analysis surfaces patterns in your endurance build, intensity balance, and recovery — with clear strengths, risks, and a suggested focus.</p>
 		</article>
 
 		<article class="feature-card">
 			<p class="feature-kicker">Rides</p>
 			<h3>Ride-by-ride analysis that goes beyond averages</h3>
-			<p>Every imported ride gets classification, heart-rate and power zone context, plus power-based metrics like Normalized Power, Intensity Factor, TSS, cadence trends, and narrative feedback that explains effort instead of just dumping numbers.</p>
+			<p>Every imported ride gets a classification, heart-rate and power zone breakdown, Normalized Power, Intensity Factor, TSS, cadence trends, and a coaching note explaining the effort. A 12-week Training Trends view tracks load, distance, and zone mix across your history. On iOS, tap any ride to see a zone-coloured GPS map with a fatigue signature graph.</p>
 		</article>
 
 		<article class="feature-card">
 			<p class="feature-kicker">Goals</p>
-			<h3>Event progress tied to your actual training</h3>
-			<p>Track target distance, climbing demand, and readiness signals from recent work, including power-based fitness tracking when your rides support it.</p>
+			<h3>Event readiness tied to your actual training</h3>
+			<p>Set a target event with distance, elevation, and date. Chad calculates readiness from your recent long rides and climbing work, tracking progress from Building through to Ready — with context on what still needs to close before the event.</p>
 		</article>
 
 		<article class="feature-card">
 			<p class="feature-kicker">Unlock</p>
-			<h3>One-time unlock for deeper coaching</h3>
-			<p>Unlock full ride history, weekly coaching summary, endurance trend, goal readiness scoring, next-ride recommendations, and power progression tracking with a single purchase.</p>
+			<h3>One-time purchase for deeper coaching</h3>
+			<p>Unlock full ride history, weekly zone distribution stats, the 8-week training analysis, goal readiness progression charts, training plan summaries with Chad's recommendations, and endurance and power trend tracking — all with a single one-time purchase.</p>
 		</article>
 	</div>
 </section>
@@ -128,8 +157,8 @@ description: Local-first cycling coaching with FIT file import, heart-rate and p
 		<div class="timeline-step">
 			<span class="timeline-index">01</span>
 			<div>
-				<h3>Import FIT files</h3>
-				<p>Select one or more FIT files from your device or shared exports and bring them straight into the app.</p>
+				<h3>Import FIT or ZIP files</h3>
+				<p>Select FIT files or ZIP bundles from Garmin, Wahoo, Karoo, or Files — or share directly from a compatible app. Chad handles duplicates automatically.</p>
 			</div>
 		</div>
 		<div class="timeline-step">
