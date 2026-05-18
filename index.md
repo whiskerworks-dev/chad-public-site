@@ -57,22 +57,22 @@ description: Local-first cycling coaching with FIT file import, heart-rate and p
 
 	<div class="screenshot-strip">
 		<div class="screenshot-item">
-			<img src="{{ '/assets/images/screenshots/01-chad-private-cycling-coach.png' | relative_url }}" alt="Chad dashboard showing next-step coaching and 8-week training analysis" loading="lazy" />
+			<img src="{{ '/assets/images/screenshots/01-dashboard-overview.png' | relative_url }}" alt="Dashboard showing weekly distance, ride count, load score, and heart rate zone breakdown" loading="lazy" />
 		</div>
 		<div class="screenshot-item">
-			<img src="{{ '/assets/images/screenshots/02-ride-analysis.png' | relative_url }}" alt="Ride analysis showing Chad's coaching note and endurance classification" loading="lazy" />
+			<img src="{{ '/assets/images/screenshots/02-dashboard-coaching.png' | relative_url }}" alt="Dashboard coaching tab with next-step advice, 8-week training analysis, and next-ride recommendation" loading="lazy" />
 		</div>
 		<div class="screenshot-item">
-			<img src="{{ '/assets/images/screenshots/03-power-hr-effort.png' | relative_url }}" alt="Power and heart rate zone breakdown for a single ride" loading="lazy" />
+			<img src="{{ '/assets/images/screenshots/03-ride-coaching-note.png' | relative_url }}" alt="Ride card for Sunset Ride showing Chad's coaching note, endurance classification, and power zones" loading="lazy" />
 		</div>
 		<div class="screenshot-item">
-			<img src="{{ '/assets/images/screenshots/04-goal-readiness.png' | relative_url }}" alt="Goal readiness screen showing 83% ready with distance and elevation targets" loading="lazy" />
+			<img src="{{ '/assets/images/screenshots/04-ride-metrics.png' | relative_url }}" alt="Ride metrics screen showing weighted power, intensity factor, distance, elevation, and fatigue signature" loading="lazy" />
 		</div>
 		<div class="screenshot-item">
-			<img src="{{ '/assets/images/screenshots/05-weekly-summary.png' | relative_url }}" alt="Weekly summary showing 7-day training rhythm, zone distribution, and load score" loading="lazy" />
+			<img src="{{ '/assets/images/screenshots/05-goal-readiness.png' | relative_url }}" alt="Goal readiness screen showing 83% ready, 150km target, and 15 weeks to event" loading="lazy" />
 		</div>
 		<div class="screenshot-item">
-			<img src="{{ '/assets/images/screenshots/06-chad-privacy.png' | relative_url }}" alt="Privacy screen confirming local-first data storage" loading="lazy" />
+			<img src="{{ '/assets/images/screenshots/06-profile-zones.png' | relative_url }}" alt="Profile screen showing age, FTP, and calculated heart rate and power zones" loading="lazy" />
 		</div>
 	</div>
 </section>
