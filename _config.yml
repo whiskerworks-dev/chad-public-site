@@ -1,7 +1,7 @@
 title: Chad Cycling Coach
 email: whiskerworks@nxtlab.dev
-description: Local-first cycling coaching with FIT file import, on-device ride analysis, and clear privacy boundaries.
+description: Cycling coaching that runs entirely on your phone. No account, no cloud, no subscription.
 baseurl: ""
 url: ""
 markdown: kramdown
-theme: minima
+plugins: []

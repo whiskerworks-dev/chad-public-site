@@ -20,13 +20,6 @@ You need Ruby and Bundler. On macOS, Ruby ships with the OS but Bundler needs in
 gem install bundler
 ```
 
-Create a `Gemfile` in the repo root if one doesn't exist:
-
-```ruby
-source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
-```
-
 Then install dependencies and start the dev server:
 
 ```bash
@@ -36,7 +29,17 @@ bundle exec jekyll serve
 
 The site will be available at http://localhost:4000. Jekyll watches for file changes and rebuilds automatically — refresh your browser to see updates.
 
-> **Note:** The layout uses a custom `_layouts/default.html` and does not rely on the `minima` theme's templates, so the `theme: minima` line in `_config.yml` only pulls in Minima's default Sass variables. You can remove it safely if you don't need them.
+To verify the exact production build (what GitHub Pages will publish), build without a server and inspect `_site/`:
+
+```bash
+bundle exec jekyll build
+```
+
+> **Note:** The `Gemfile` pins `github-pages`, so the local build uses the same Jekyll version and plugins as the GitHub Pages deploy — if it builds locally, it builds on Pages.
+
+## Mobile styling
+
+The layout is mobile-first: single-column grids and a scrollable nav chip row on phones, expanding to two/three-column grids at 720px and 1080px. Key breakpoints and touch-target sizing (`--tap: 44px`) live in `_layouts/default.html`. Test mobile styling with your browser's device toolbar (e.g. Safari Web Inspector → Responsive Design Mode) against http://localhost:4000.
 
 ## Deploy
 
